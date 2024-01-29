@@ -1,12 +1,11 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import Form from "./pages/formhook";
+
+import Tinput from "./components/Tinpout";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Form />
+      <Tinput />
     </div>
   );
 }
